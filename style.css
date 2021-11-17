@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Akrobat";
+  src: url(Font/akrobat.woff) format(woff);
+}
+* {
+  font-family: "Akrobat";
+  margin: 0 auto;
+}
+body {
+  height: 1000px;
+}
+.container {
+  max-width: 1152px;
+  width: 100%;
+}
+#navbarPertama {
+  height: 30px;
+  background-color: #3c7c40;
+}
+#navbarPertama a {
+  text-decoration: none;
+  color: #fff;
+  float: left;
+  padding-right: 14px;
+}
+#navbarKedua {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  height: 60px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
