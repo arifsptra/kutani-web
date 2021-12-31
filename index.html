@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="style.css" />
     <!-- Icon -->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" />
+    <!-- Slick CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
     <title>Kutani</title>
   </head>
   <body>
@@ -62,15 +65,35 @@
     <!-- Start Slideshow -->
     <section id="slideshow">
       <div class="container">
-        <ul id="slides">
-          <li class="slide showing">One</li>
-          <li class="slide">Two</li>
-          <li class="slide">Three</li>
-        </ul>
+        <div class="slides">
+          <div class="slide">
+            <a href="#">
+              <img src="Image/contohSlide1.jpg" alt="" />
+            </a>
+          </div>
+          <div class="slide">
+            <a href="#">
+              <img src="Image/contohSlide2.jpg" alt="" />
+            </a>
+          </div>
+          <div class="slide">
+            <a href="#">
+              <img src="Image/contohSlide3.jpg" alt="" />
+            </a>
+          </div>
+        </div>
       </div>
     </section>
     <!-- End Slideshow -->
+
     <!-- File External Javascript -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Slick JS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!-- My Script JS -->
     <script src="script.js"></script>
   </body>
 </html>
