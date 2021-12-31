@@ -203,3 +203,27 @@ body {
   transition: opacity 0.5s ease-out;
 }
 /* End Style Slideshow */
+/* Start Style Flase Sale */
+#flashSale {
+  margin-bottom: 25px;
+}
+.mainFlashSale {
+  width: 1000px;
+  height: 382px;
+  background: #ffffff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px
+}
+.mainFlashSale .col {
+  padding: 0px;
+  width: 150px;
+  height: 300px;
+  background:rgba(60, 124, 64, 0.671);
+  border-radius: 15px;
+  overflow: hidden;
+}
+.mainFlashSale .col img {
+  height: 50%;
+  width: 150px;
+}
+/* End Style Flase Sale */
