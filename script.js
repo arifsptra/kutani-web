@@ -26,10 +26,9 @@ var timeX = setInterval(function () {
   }
 }, 1000);
 
-// Script Slider Slideshow
+// Script Slider Flash Sale
 $(document).ready(function () {
   $(".rowContent").slick({
-    dots: true,
     infinite: false,
     speed: 400,
     slidesToShow: 6,
@@ -59,5 +58,17 @@ $(document).ready(function () {
         },
       },
     ],
+  });
+});
+
+// Script Slider Produk Terlaris
+
+$(document).ready(function () {
+  $(".rowContentProdukTerlaris").slick({
+    infinite: true,
+    speed: 400,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    variableWidth: true,
   });
 });

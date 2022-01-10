@@ -183,12 +183,24 @@ body {
   text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
 }
 .slick-dots {
+  color: #fff;
+  top: 220px;
+}
+ul.slick-dots li button:before {
+  font-size: 8px;
+  color: #fff;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  opacity: 1;
+}
+ul.slick-dots li.slick-active button:before {
+  color: #dedede;
+}
+.slides:not(:hover) .slick-arrow,
+.slides:not(:hover) .slick-dots {
   opacity: 0;
 }
-.slides:not(:hover) .slick-arrow {
-  opacity: 0;
-}
-.slick-arrow {
+.slick-arrow,
+.slick-dots {
   transition: opacity 0.5s ease-out;
 }
 /* End Style Slideshow */
@@ -316,15 +328,16 @@ body {
 .mainProdukTerlaris .rowJudul {
   font-size: 14px;
   color: #3c7c40;
-  margin: 20px;
+  margin: 20px 0px 0px 20px;
 }
 .mainProdukTerlaris .rowContentProdukTerlaris {
   width: 100%;
+  padding: 0px 20px 10px 20px;
   display: flex;
   justify-content: space-between;
 }
 .mainProdukTerlaris .rowContentProdukTerlaris .col {
-  margin-top: 0px;
+  margin: 15px 5px 5px 10px;
   padding: 0px;
   width: 260px;
   height: 100px;
