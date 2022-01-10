@@ -231,12 +231,12 @@ ul.slick-dots li.slick-active button:before {
 .mainFlashSale .rowContent {
   width: 100%;
   display: flex;
-  padding: 10px;
+  padding: 0px 10px;
   padding-top: 0px;
 }
 .mainFlashSale .col {
   margin: 10px;
-  margin-top: 0px;
+  margin-top: 5px;
   display: flex;
   padding: 0px;
   width: 150px;
@@ -251,18 +251,18 @@ ul.slick-dots li.slick-active button:before {
   width: 150px;
 }
 .mainFlashSale .rowJudul {
+  font-size: 14px;
+  color: #3c7c40;
+  margin: 20px 20px 10px 20px;
   float: left;
 }
 .mainFlashSale .row .judul {
-  font-size: 18px;
-  margin: 20px;
   float: left;
 }
 .mainFlashSale .row #timeFlashSale {
+  padding: 6px 20px;
   color: #3c7c40;
   float: left;
-  font-size: 18px;
-  margin: 20px;
 }
 .mainFlashSale .col .merkProduk {
   font-size: 8px;
