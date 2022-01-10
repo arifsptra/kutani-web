@@ -228,7 +228,6 @@ body {
   padding: 0px;
   width: 150px;
   height: 300px;
-  background: rgba(60, 124, 64, 0.671);
   background: #ffffff;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
   border-radius: 15px;
@@ -313,3 +312,52 @@ body {
   color: #555555;
 }
 /* End Style Flase Sale */
+/* Start Style Produk Terlaris */
+#produkTerlaris {
+  width: 100%;
+  margin-bottom: 25px;
+}
+.mainProdukTerlaris {
+  width: 1000px;
+  height: 182px;
+  background: #ffffff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.mainProdukTerlaris .rowJudul {
+  font-size: 14px;
+  color: #3c7c40;
+  margin: 20px;
+}
+.mainProdukTerlaris .rowContentProdukTerlaris {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.mainProdukTerlaris .rowContentProdukTerlaris .col {
+  margin-top: 0px;
+  padding: 0px;
+  width: 260px;
+  height: 100px;
+  display: flex;
+  background: #ffffff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  overflow: hidden;
+}
+.mainProdukTerlaris .rowContentProdukTerlaris .col img {
+  width: 100px;
+  height: 100px;
+}
+.mainProdukTerlaris .rowContentProdukTerlaris .col .infoProduk {
+  width: 160px;
+  padding: 30px 20px;
+  font-size: 14px;
+}
+.mainProdukTerlaris .rowContentProdukTerlaris .col .infoProduk .namaProduk {
+  font-weight: 700;
+}
+.mainProdukTerlaris .rowContentProdukTerlaris .col .infoProduk .terjual {
+  font-weight: 500;
+}
+/* End Style Produk Terlaris */
