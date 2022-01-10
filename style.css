@@ -180,26 +180,15 @@ body {
   width: 50px;
   height: 50px;
   z-index: 2;
-  text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+  text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
 }
 .slick-dots {
-  top: 225px;
-}
-.slick-dots li button:before {
-  font-size: 12px;
-  color: #fff;
-  text-shadow: 0 0 2px rgba(255, 255, 255, 0.5);
-  opacity: 1;
-}
-.slick-dots li.slick-active button:before {
-  color: #ffffff;
-}
-.slides:not(:hover) .slick-arrow,
-.slides:not(:hover) .slick-dots {
   opacity: 0;
 }
-.slick-arrow,
-.slick-dots {
+.slides:not(:hover) .slick-arrow {
+  opacity: 0;
+}
+.slick-arrow {
   transition: opacity 0.5s ease-out;
 }
 /* End Style Slideshow */
