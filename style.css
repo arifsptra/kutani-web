@@ -484,3 +484,36 @@ ul.slick-dots li.slick-active button:before {
   border: 2px solid #3c7c40;
   text-align: center;
 }
+/* Start Style Keunggulan Kutani */
+#keunggulanKutani {
+  width: 100%;
+  margin-bottom: 50px;
+}
+.row {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+}
+.row .col {
+  float: left;
+  width: 300px;
+  padding: 4px;
+}
+.row .col img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.row .col .judul {
+  margin-top: 15px;
+  color: #3c7c40;
+  font-weight: bold;
+  font-size: 16px;
+}
+.row .col .kata {
+  font-size: 14px;
+  margin-top: 4px;
+}
+/* End Style Keunggulan Kutani */
