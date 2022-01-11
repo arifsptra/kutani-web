@@ -517,3 +517,35 @@ ul.slick-dots li.slick-active button:before {
   margin-top: 4px;
 }
 /* End Style Keunggulan Kutani */
+/* Start Style Footer */
+footer {
+  margin-top: 100px;
+  width: 100%;
+  padding-top: 30px;
+  background: #ffffff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+.mainFooter .row .col p {
+  margin-top: 23px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.mainFooter .row .col a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #000;
+}
+.mainFooter .row .col a:hover {
+  color: #3c7c40;
+}
+.mainFooter .row .col .kotakFooter {
+  width: 200px;
+  height: 180px;
+  background: rgba(0, 0, 0, 0.25);
+}
+.mainFooter .copyright {
+  margin: 25px auto;
+  font-weight: bold;
+  font-size: 16px;
+}
+/* End Style Footer */
