@@ -17,7 +17,8 @@
 
 /* Style For Daftar */
 .pilihanDaftar,
-.daftarKonsumen {
+.daftarKonsumen,
+.daftarMitra {
   width: 300px;
   background: #ffffff;
   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
@@ -32,21 +33,34 @@
   font-weight: bold;
   margin-bottom: 25px;
 }
+.daftarMitra .heading {
+  text-align: center;
+  color: #3c7c40;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+.daftarMitra p span {
+  font-weight: bold;
+}
 .pilihanDaftar .button,
-.daftarKonsumen .button {
+.daftarKonsumen .button,
+.daftarMitra .button {
   text-align: center;
   margin: 0px auto;
   width: 250px;
   background: #3c7c40;
   border-radius: 4px;
-  transition: all 0.4s
+  transition: all 0.4s;
 }
 .pilihanDaftar .button:hover,
-.daftarKonsumen .button:hover {
-  background: #509455
+.daftarKonsumen .button:hover,
+.daftarMitra .button:hover {
+  background: #509455;
 }
 .pilihanDaftar .button a,
-.daftarKonsumen .button a {
+.daftarKonsumen .button a,
+.daftarMitra .button a {
   padding: 4px 37%;
   text-decoration: none;
   color: #fff;
@@ -59,17 +73,20 @@
 }
 
 /* Style For Form Daftar Konsumen */
-.daftarKonsumen .form {
+.daftarKonsumen .form,
+.daftarMitra .form {
   margin: 0px 12.5px;
 }
-.daftarKonsumen .form label {
+.daftarKonsumen .form label,
+.daftarMitra .form label {
   font-size: 12px;
   color: #555;
   text-align: none;
   font-weight: bold;
   text-align: none;
 }
-.daftarKonsumen .form input {
+.daftarKonsumen .form input,
+.daftarMitra .form input {
   margin-bottom: 10px;
   margin-top: 2px;
   font-size: 12px;
@@ -80,23 +97,27 @@
   padding: 8px;
   width: 258px;
 }
-.daftarKonsumen .btnDaftarKonsumen {
+.daftarKonsumen .btnDaftarKonsumen,
+.daftarMitra .btnDaftarKonsumen {
   margin: 50px auto;
 }
-.daftarKonsumen p {
+.daftarKonsumen p,
+.daftarMitra p {
   margin-top: 10px;
   font-weight: bold;
   text-align: center;
   font-size: 10px;
   color: #555;
 }
-.daftarKonsumen p a {
+.daftarKonsumen p a,
+.daftarMitra p a {
   font-weight: bold;
   color: #3c7c40;
   text-decoration: none;
   transition: all 0.4s;
 }
-.daftarKonsumen p a:hover {
+.daftarKonsumen p a:hover,
+.daftarMitra p a:hover {
   color: #555;
 }
 
