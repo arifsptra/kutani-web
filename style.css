@@ -498,6 +498,11 @@ ul.slick-dots li.slick-active button:before {
   float: left;
   width: 300px;
   padding: 4px;
+  transition: all 0.5s;
+}
+.rowKeunggulanPetani .col:hover {
+  border-radius: 10px;
+  box-shadow: 0 0 4px rgba(60, 124, 64, 0.671);
 }
 .rowKeunggulanPetani .col img {
   float: left;
