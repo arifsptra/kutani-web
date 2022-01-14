@@ -1,0 +1,56 @@
+/* Style For Logo Kutani */
+.logoKutani {
+  margin: 50px auto;
+  width: 100%;
+  text-align: center;
+}
+.logoKutani img {
+  width: 30px;
+}
+.logoKutani a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 35px;
+  color: #3c7c40;
+  margin-left: 8px;
+}
+
+/* Style For Pilihan Daftar */
+.pilihanDaftar {
+  text-align: center;
+  width: 300px;
+  background: #ffffff;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 25px 25px 50px 25px;
+}
+.pilihanDaftar .heading {
+  color: #3c7c40;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.pilihanDaftar .button {
+  background: #3c7c40;
+  border-radius: 4px;
+}
+.pilihanDaftar .button a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+}
+.pilihanDaftar .atau {
+  font-size: 9px;
+  margin: 7px auto;
+}
+/* Style For Footer */
+footer {
+  text-align: center;
+  box-shadow: none;
+  font-size: 10px;
+  font-weight: bold;
+}
+footer .copyright a {
+  text-decoration: none;
+  color: #3c7c40;
+}
