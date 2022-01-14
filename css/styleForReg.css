@@ -15,36 +15,94 @@
   margin-left: 8px;
 }
 
-/* Style For Pilihan Daftar */
-.pilihanDaftar {
-  text-align: center;
+/* Style For Daftar */
+.pilihanDaftar,
+.daftarKonsumen {
   width: 300px;
   background: #ffffff;
   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
   padding: 25px 25px 50px 25px;
 }
-.pilihanDaftar .heading {
+.pilihanDaftar .heading,
+.daftarKonsumen .heading {
+  text-align: center;
   color: #3c7c40;
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 25px;
 }
-.pilihanDaftar .button {
+.pilihanDaftar .button,
+.daftarKonsumen .button {
+  text-align: center;
+  margin: 0px auto;
+  width: 250px;
   background: #3c7c40;
   border-radius: 4px;
+  transition: all 0.4s
 }
-.pilihanDaftar .button a {
+.pilihanDaftar .button:hover,
+.daftarKonsumen .button:hover {
+  background: #509455
+}
+.pilihanDaftar .button a,
+.daftarKonsumen .button a {
+  padding: 4px 37%;
   text-decoration: none;
   color: #fff;
-  font-size: 12px;
+  font-size: 13px;
 }
 .pilihanDaftar .atau {
-  font-size: 9px;
-  margin: 7px auto;
+  text-align: center;
+  font-size: 10px;
+  margin: 8px auto;
 }
+
+/* Style For Form Daftar Konsumen */
+.daftarKonsumen .form {
+  margin: 0px 12.5px;
+}
+.daftarKonsumen .form label {
+  font-size: 12px;
+  color: #555;
+  text-align: none;
+  font-weight: bold;
+  text-align: none;
+}
+.daftarKonsumen .form input {
+  margin-bottom: 10px;
+  margin-top: 2px;
+  font-size: 12px;
+  border: none;
+  background: #ffffff;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 8px;
+  width: 258px;
+}
+.daftarKonsumen .btnDaftarKonsumen {
+  margin: 50px auto;
+}
+.daftarKonsumen p {
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 10px;
+  color: #555;
+}
+.daftarKonsumen p a {
+  font-weight: bold;
+  color: #3c7c40;
+  text-decoration: none;
+  transition: all 0.4s;
+}
+.daftarKonsumen p a:hover {
+  color: #555;
+}
+
 /* Style For Footer */
 footer {
+  margin-bottom: 10px;
   text-align: center;
   box-shadow: none;
   font-size: 10px;
@@ -53,4 +111,8 @@ footer {
 footer .copyright a {
   text-decoration: none;
   color: #3c7c40;
+  transition: all 0.3s;
+}
+footer .copyright a:hover {
+  color: #000;
 }
