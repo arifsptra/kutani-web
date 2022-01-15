@@ -1,0 +1,36 @@
+/* Style For Navbar */
+.navbarLogo span {
+  font-weight: 500;
+}
+.navbarList ul {
+  width: 362px;
+  list-style: none;
+  display: flex;
+  margin: 10px auto;
+  justify-content: space-between;
+}
+.navbarList ul li a {
+  color: #3c7c40;
+  text-decoration: none;
+  font-size: 16px;
+}
+.navbarList ul li a:hover {
+  color: #555;
+}
+
+/* Style For Footer */
+footer {
+  margin-bottom: 10px;
+  text-align: center;
+  box-shadow: none;
+  font-size: 10px;
+  font-weight: bold;
+}
+footer .copyright a {
+  text-decoration: none;
+  color: #3c7c40;
+  transition: all 0.3s;
+}
+footer .copyright a:hover {
+  color: #000;
+}
