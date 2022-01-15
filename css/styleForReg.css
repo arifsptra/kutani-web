@@ -18,7 +18,8 @@
 /* Style For Daftar */
 .pilihanDaftar,
 .daftarKonsumen,
-.daftarMitra {
+.daftarMitra,
+.masuk {
   width: 300px;
   background: #ffffff;
   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
@@ -26,7 +27,8 @@
   padding: 25px 25px 50px 25px;
 }
 .pilihanDaftar .heading,
-.daftarKonsumen .heading {
+.daftarKonsumen .heading,
+.masuk .heading {
   text-align: center;
   color: #3c7c40;
   font-size: 18px;
@@ -45,7 +47,8 @@
 }
 .pilihanDaftar .button,
 .daftarKonsumen .button,
-.daftarMitra .button {
+.daftarMitra .button,
+.masuk .button {
   text-align: center;
   margin: 0px auto;
   width: 250px;
@@ -55,12 +58,14 @@
 }
 .pilihanDaftar .button:hover,
 .daftarKonsumen .button:hover,
-.daftarMitra .button:hover {
+.daftarMitra .button:hover,
+.masuk .button:hover {
   background: #509455;
 }
 .pilihanDaftar .button a,
 .daftarKonsumen .button a,
-.daftarMitra .button a {
+.daftarMitra .button a,
+.masuk .button a {
   padding: 4px 37%;
   text-decoration: none;
   color: #fff;
@@ -74,11 +79,13 @@
 
 /* Style For Form Daftar Konsumen */
 .daftarKonsumen .form,
-.daftarMitra .form {
+.daftarMitra .form,
+.masuk .form {
   margin: 0px 12.5px;
 }
 .daftarKonsumen .form label,
-.daftarMitra .form label {
+.daftarMitra .form label,
+.masuk .form label {
   font-size: 12px;
   color: #555;
   text-align: none;
@@ -86,7 +93,8 @@
   text-align: none;
 }
 .daftarKonsumen .form input,
-.daftarMitra .form input {
+.daftarMitra .form input,
+.masuk .form input {
   margin-bottom: 10px;
   margin-top: 2px;
   font-size: 12px;
@@ -101,23 +109,47 @@
 .daftarMitra .btnDaftarKonsumen {
   margin: 50px auto;
 }
+
+.masuk .lupa {
+  text-align: right;
+  margin-right: 15px;
+  margin-top: 40px;
+  margin-bottom: 2px;
+  font-size: 10px;
+  font-weight: bold;
+
+}
+.masuk .lupa a {
+  color: #3c7c40;
+  text-decoration: none;
+  transition: all 0.4s;
+}
+.masuk .lupa a:hover {
+  color: #555;
+}
 .daftarKonsumen p,
-.daftarMitra p {
+.daftarMitra p,
+.masuk p {
   margin-top: 10px;
   font-weight: bold;
   text-align: center;
   font-size: 10px;
   color: #555;
 }
+.masuk p {
+  margin-bottom: 50px;
+}
 .daftarKonsumen p a,
-.daftarMitra p a {
+.daftarMitra p a,
+.masuk p a {
   font-weight: bold;
   color: #3c7c40;
   text-decoration: none;
   transition: all 0.4s;
 }
 .daftarKonsumen p a:hover,
-.daftarMitra p a:hover {
+.daftarMitra p a:hover,
+.masuk p a:hover {
   color: #555;
 }
 
