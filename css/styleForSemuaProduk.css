@@ -1,0 +1,88 @@
+#semuaProduk {
+    margin-top: 20px;
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  .mainSemuaProduk {
+    width: 1000px;
+    height: 694px;
+    background: #ffffff;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+  }
+  .mainSemuaProduk .rowContentSemuaProduk {
+      margin-top: 15px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 15px;
+  }
+  .mainSemuaProduk .rowContentSemuaProduk .col {
+    margin: 6px 6px;
+    width: 150px;
+    height: 275px;
+    background: #ffffff;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  .mainSemuaProduk .rowContentSemuaProduk .col img {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .mainSemuaProduk .col .merkProduk {
+    font-size: 8px;
+    color: #3c7c40;
+    margin: 4px 0px 2px 10px;
+  }
+  .mainSemuaProduk .col .namaProduk {
+    font-size: 14px;
+    margin: 0px 10px;
+  }
+  .mainSemuaProduk .col .keteranganProduk {
+    font-size: 10px;
+    margin: 2px 10px 0px 10px;
+    color: #555;
+  }
+  .mainSemuaProduk .col .diskon {
+    margin: 10px 10px 6px 10px;
+  }
+  .mainSemuaProduk .col .diskonPersen {
+    float: left;
+    width: max-content;
+    background: rgba(255, 0, 0, 0.2);
+    border-radius: 2px;
+    padding: 2px 4px;
+    font-size: 8px;
+    color: #ff0000;
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  .mainSemuaProduk .col .hargaNormal {
+    font-size: 8px;
+    padding: 2px;
+    text-decoration-line: line-through;
+    font-weight: bold;
+  }
+  .mainSemuaProduk .col .hargaAkhir {
+    margin: 6px 10px 0px 10px;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  .mainSemuaProduk .lihatProdukLainnya {
+    text-align: center;
+    margin: 18px;
+  }
+  .mainSemuaProduk .lihatProdukLainnya a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    border: 1.5px solid #3c7c40;
+    color: #3c7c40;
+    padding: 6px 10px;
+    border-radius: 10px;
+  }
+  .mainSemuaProduk .lihatProdukLainnya a:hover {
+    box-shadow: 0 0 0 2px rgba(60, 124, 64, 0.671);
+  }
