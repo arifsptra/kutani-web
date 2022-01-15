@@ -40,6 +40,11 @@ body {
 .list {
   margin: 0px;
 }
+.listKiri {
+  width: 170px;
+  display: flex;
+  justify-content: space-between;
+}
 .listKanan {
   width: 200px;
   display: flex;
@@ -146,12 +151,18 @@ body {
 .button.masuk {
   border: 2px solid #3c7c40;
   background-color: #fff;
-  color: #3c7c40;
 }
 .button.daftar {
   border: 2px solid #3c7c40;
   background-color: #3c7c40;
+}
+.button.masuk a {
+  color: #3c7c40;
+  text-decoration: none;
+}
+.button.daftar a {
   color: #fff;
+  text-decoration: none;
 }
 .button.masuk:hover {
   box-shadow: 0 0 0 2px rgba(60, 124, 64, 0.671);
